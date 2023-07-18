@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600&display=swap');
+body{
+    font-family:'Signika Negative', sans-serif;
+}
+header {
+    top: 0%;
+    z-index: 10;
+    position: sticky;
+    background-color: #3e834b;
+}
+
+.ul{
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+/*formato lista items index y toda la pagina para navbar*/
+li {
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 5px;
+}
+.nav-item {
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: small;
+    right: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+    
+}
+.navcolor{
+    background-color: #3e834b
+}
+
+.fuenteindex{
+    text-align: start;
+    font-size: small;
+    font-style: oblique;
+}
+
+.imagencentrada{
+    height: 159px;
+    width: 317px;
+
+}
+
+/*formato anclas toda la pagina*/
+a {
+    text-decoration: none;
+    color: #101010;
+    
+}
+main{
+    background-color:whitesmoke
+}
+.carousel-item {
+    height: 60vh;
+    width: 100%;
+    
+}
+.carousel-item .imagenadaptada{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgserviciofiesta{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:10%;
+    padding: 15px;
+    
+    
+}
+.buscador{
+    display: flex;
+    width: 500px;
+    background-color: whitesmoke;
+    font-family:'Signika Negative', sans-serif ;
+    padding-left: 5px;
+    
+}
+input{
+    border-radius: 20px;
+}
+/*fin de formato total y del index*/
+
+/*comienzo portal de ayuda*/
+
+.Menu_ayuda{
+    border: 2px solid #3e834b;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.linkayuda:hover{
+    background-color: none;
+    color: #3e834b;
+    
+}
+
+.paddingcustom{
+    padding-left: 5px;
+}
+
+.contentcustom{
+    font-size: small;
+}
+/*fin portal de ayuda */
+
+
+/*comienzo de footer*/
+footer {
+    border-top: 5px solid #3e834b;
+}
+
+
+
+
+
+
+/*fin de footer*/
+
+
+
+
+
+
+/* estilos pre boostrap
+main{
+    display: flex;
+}
+
+
+
+
+contenido principal
+
+
+pie de pagina
+
+.fuente{
+    font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    position: relative;
+    
+}
+
+.afuentebs{ 
+    color: #020202;
+    padding: 2px;
+}
+.afuentebs:hover{ 
+    color: #7cad00;   
+    
+}
+footer {
+    display: flex;
+    border-top: 2px solid #3e834b;
+}
+.footer_tyc {
+    position:absolute;
+    right:10px;
+    margin-bottom: 5px;
+}
+.parrafo_tyc{
+    font-size: 1rem;
+    display:inline;
+    padding:5px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+fin de estilos pre boostrap*/
+
+
