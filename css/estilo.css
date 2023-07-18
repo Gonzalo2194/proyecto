@@ -124,70 +124,37 @@ input{
     font-size: small;
 }
 /*fin portal de ayuda */
+/*comienzo sobre nosotros */
+.imagenajustada{
+    width: 275px;
+    height: 183px;
+}
+.centradoaboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.estilostaff{
+    border-top: solid 2px;
+    border-color: #3e834b;
+    border-radius: 20px;
+    border-bottom: solid 2px;
+    border-color: #3e834b;
+    border-radius: 20px;
+}
+.movertexto{
+    text-align: end;
+    padding-right: 150px;
 
+}
+/*fin sobre nosotros */
 /*comienzo de footer*/
 footer {
     border-top: 5px solid #3e834b;
 }
 
-
-
-
-
-
 /*fin de footer*/
 
-
-
-
-
-
-/* estilos pre boostrap
-main{
-    display: flex;
-}
-
-
-
-
-contenido principal
-
-
-pie de pagina
-
-.fuente{
-    font-size: 1rem;
-    font-family: 'Signika Negative', sans-serif;
-    display: flex;
-    position: relative;
-    
-}
-
-.afuentebs{ 
-    color: #020202;
-    padding: 2px;
-}
-.afuentebs:hover{ 
-    color: #7cad00;   
-    
-}
-footer {
-    display: flex;
-    border-top: 2px solid #3e834b;
-}
-.footer_tyc {
-    position:absolute;
-    right:10px;
-    margin-bottom: 5px;
-}
-.parrafo_tyc{
-    font-size: 1rem;
-    display:inline;
-    padding:5px;
-    margin-bottom: 5px;
-    color: whitesmoke;
-}
-fin de estilos pre boostrap*/
 
 
