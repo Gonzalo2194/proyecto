@@ -61,7 +61,7 @@ a {
     
 }
 main{
-    background-color:whitesmoke
+background-color: whitesmoke;
 }
 .carousel-item {
     height: 60vh;
@@ -120,8 +120,11 @@ input{
     padding-left: 5px;
 }
 
+
 .contentcustom{
     font-size: small;
+    justify-content: center;
+
 }
 /*fin portal de ayuda */
 /*comienzo sobre nosotros */
@@ -145,6 +148,19 @@ input{
 }
 
 /*fin sobre nosotros */
+
+.fuente{
+    font-style: italic;
+    text-decoration: none;
+    
+
+}
+.fuente:hover{
+    color: #3e834b;
+}
+
+
+
 /*comienzo de footer*/
 footer {
     border-top: 5px solid #3e834b;
