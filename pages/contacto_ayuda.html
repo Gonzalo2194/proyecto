@@ -64,23 +64,22 @@
                 <form class="container-fluid row mb-6" action="./404.html">
                     <!--formulario de contacto--> 
                     <div>
-                        <input class="paddingcustom" type="text"  placeholder="Nombre" required>
+                        <input class="paddingcustom col-2" type="text" placeholder="Nombre" required>
                     </div>
                     <div>
-                        <input class="paddingcustom" type="email" placeholder="ejemplo@gmail.com" required >
+                        <input class="paddingcustom col-2" type="email" placeholder="ejemplo@gmail.com" required >
                     </div>
                     <div class= "container-fluid row">
-                        <textarea class="col" name="" id="" cols="50" rows="5" placeholder="Ingrese su mensaje" required ></textarea>
-                        <div class="col" >
-                            <input class="contentcustom row bg-danger bg-gradient text-white fw-bold" type="reset" value="Borrar datos">
-                        <input class="row bg-success bg-gradient text-white fw-bold" type="submit" value="Enviar consulta">
-                    <div class=" d-flex justify-content-center">
-                        
+                        <textarea class="col-3" name="" id="" cols="30" rows="5" placeholder="Ingrese su mensaje" required ></textarea>
                     </div>
+                        <div class="col">
+                        <button type="submit" class="btn btn-success">Enviar consulta</button>
+                        <button type="reset" class="btn btn-danger">Borrar datos</button>
+                        </div>
                 </form>  
         </section>
     </main>
-    <footer class="container-fluid d-flex bg-secondary text-white">
+    <footer class="container-fluid d-flex footercolor text-white">
         <!--enlaces relativos y absolutos en redes sociales-->
         <div class="row offset-sm-7 ">
                 <p class="col col-md-auto " > Términos y condiciones</p>

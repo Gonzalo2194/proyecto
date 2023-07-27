@@ -97,11 +97,12 @@ background-color: whitesmoke;
     
 }
 input{
-    border-radius: 20px;
+    border-radius: 10px;
+    font-size: 16px;
 }
 
-.estrellas{
-    color: rgba(187, 187, 27, 0.842);
+.starcolor{
+    color: rgba(231, 231, 10, 0.918);
     
 }
 
@@ -123,7 +124,7 @@ input{
 }
 
 .paddingcustom{
-    padding-left: 5px;
+    padding-left: 4px;
 }
 
 
@@ -168,8 +169,12 @@ input{
 
 
 /*comienzo de footer*/
-footer {
+footer  {
     border-top: 5px solid #3e834b;
+    
+}
+.footercolor{
+    background-color: #3e834b;
 }
 
 /*fin de footer*/
