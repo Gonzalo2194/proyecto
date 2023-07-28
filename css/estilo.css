@@ -96,10 +96,7 @@ background-color: whitesmoke;
     padding-left: 5px;
     
 }
-input{
-    border-radius: 10px;
-    font-size: 16px;
-}
+
 
 .starcolor{
     color: rgba(231, 231, 10, 0.918);
@@ -118,8 +115,8 @@ input{
 }
 
 .linkayuda:hover{
-    background-color: none;
-    color: #3e834b;
+    background-color: #3e834b;
+    color: #ebebeb;
     
 }
 
