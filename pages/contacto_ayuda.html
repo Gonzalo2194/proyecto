@@ -53,30 +53,34 @@
             </div>
         </ul>
         <section>  
-            <div>
-                <h2>Nuestras oficinas</h2>
-            </div class="container"> 
-            <div class="row d-flex justify-content-center">
-                <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0324762557266!2d-56.186871599999996!3d-34.9056345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81cca023f7a9%3A0x144e806a0872bdf0!2sAvenida%2018%20de%20Julio%20%26%20Ejido%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1687200420263!5m2!1ses-419!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section> 
-        <section class="mb-1 ">
-                <form class="container-fluid row mb-6" action="./404.html">
-                    <!--formulario de contacto--> 
-                    <div>
-                        <input class="paddingcustom col-2" type="text" placeholder="Nombre" required>
-                    </div>
-                    <div>
-                        <input class="paddingcustom col-2" type="email" placeholder="ejemplo@gmail.com" required >
-                    </div>
-                    <div class= "container-fluid row">
-                        <textarea class="col-3" name="" id="" cols="30" rows="5" placeholder="Ingrese su mensaje" required ></textarea>
-                    </div>
-                        <div class="col">
-                        <button type="submit" class="btn btn-success">Enviar consulta</button>
-                        <button type="reset" class="btn btn-danger">Borrar datos</button>
+            <div class="container mt-5">
+                <div class="row">
+                    <!--formulario de contacto -->
+                <div class="col-md-6">
+                    <h2>Contacto</h2>
+                    <form> 
+                        <div>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
                         </div>
-                </form>  
+                        <div>
+                        <input type="email" class="form-control mt-2" id="email" placeholder="Ingrese su email" required>
+                        </div>
+                        <div class=" mt-4">
+                        <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+                        </div>
+                        <div class="col">
+                        <button type="submit" class="btn btn-success mt-2 ">Enviar consulta</button>
+                        <button type="reset" class="btn btn-danger mt-2 ">Borrar datos</button>
+                        </div>
+                    </form>
+                </div>
+                    <!--mapa -->
+                <div class="col-md-6">
+                    <h2>Estamos aquí</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0324762557266!2d-56.186871599999996!3d-34.9056345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81cca023f7a9%3A0x144e806a0872bdf0!2sAvenida%2018%20de%20Julio%20%26%20Ejido%2C%2011100%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1687200420263!5m2!1ses-419!2suy"width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
     <footer class="container-fluid d-flex footercolor text-white">
