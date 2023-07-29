@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600&display=swap');
 body{
     font-family:'Signika Negative', sans-serif;
+    background-color: whitesmoke;
 }
 header {
     top: 0%;
@@ -55,11 +56,17 @@ height: 250px
 }
 
 /*formato anclas toda la pagina*/
-a {
+a{
     text-decoration: none;
     color: #101010;
     
 }
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
 main{
 background-color: whitesmoke;
 }
@@ -97,11 +104,58 @@ background-color: whitesmoke;
     
 }
 
-
+.button:hover {
+    color: #fff;
+    background-color: #3e834b;
+    border-color: #3e834b;
+}
 .starcolor{
     color: rgba(231, 231, 10, 0.918);
     
 }
+
+/*Encuentra tu servicio*/
+
+.widthcard{
+    width: 18rem;
+    background-color: whitesmoke;
+
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0,5s ease-in-out;
+    object-fit: cover;
+    overflow: none;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+
+.card{
+    border-color: whitesmoke;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+
+.list-group-item{
+    background-color: whitesmoke;
+}
+.list-group-item:hover{
+    background-color: #3e834b
+}
+
+.fontservice{
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+}
+/*Fin Encuentra tu servicio*/
+
+
 
 /*fin de formato total y del index*/
 
