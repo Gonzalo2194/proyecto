@@ -90,24 +90,6 @@ background-color: whitesmoke;
     object-fit: fill;
 }
 
-.buscar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right:10%;
-    padding: 15px;
-    
-    
-}
-.buscador{
-    display: flex;
-    width: 500px;
-    background-color: whitesmoke;
-    font-family:'Signika Negative', sans-serif ;
-    padding-left: 5px;
-    
-}
-
 .button:hover {
     color: #fff;
     background-color: #3e834b;
@@ -117,7 +99,6 @@ background-color: whitesmoke;
     color: rgba(231, 231, 10, 0.918);
     
 }
-
 
 /*Inicio Espaciados la pagina*/
 
@@ -192,16 +173,6 @@ background-color: whitesmoke;
     
 }
 
-.paddingcustom{
-    padding-left: 4px;
-}
-
-
-.contentcustom{
-    font-size: small;
-    justify-content: center;
-
-}
 /*fin portal de ayuda */
 /*comienzo sobre nosotros */
 .imagenajustada{
