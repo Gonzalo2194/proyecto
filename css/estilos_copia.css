@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600&display=swap');
+body{
+    font-family:'Signika Negative', sans-serif;
+    background-color: whitesmoke;
+}
+header {
+    top: 0%;
+    z-index: 10;
+    position: sticky;
+    background-color: #3e834b;
+}
+
+.ul{
+    text-align: center;
+    position: absolute;
+    text-decoration: none;
+    
+}
+
+/*formato lista items index y toda la pagina para navbar*/
+li {
+    justify-content: space-between;
+    display: inline-block;
+    margin-top: 5px;
+}
+.nav-item {
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: small;
+    right: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: whitesmoke;
+    
+}
+.navcolor{
+    background-color: #3e834b
+}
+
+.fuenteindex{
+    text-align: start;
+    font-size: small;
+    font-style: oblique;
+}
+.fuentegossiper{
+    color: #3e834b;
+    font-style: bold;
+    text-decoration: underline;
+}
+.imagencentrada{
+width: 100%;
+height: 250px
+
+}
+
+/*formato anclas toda la pagina*/
+a{
+    text-decoration: none;
+    color: #101010;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+main{
+background-color: whitesmoke;
+}
+.carousel-item {
+    height: 60vh;
+    width: 100%;
+    
+}
+.carousel-item .imagenadaptada{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.imgserviciofiesta{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #3e834b;
+    border-color: #3e834b;
+}
+.starcolor{
+    color: rgba(231, 231, 10, 0.918);
+    
+}
+
+/*Inicio Espaciados la pagina*/
+
+
+.espaciado{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+
+/*Fin espaciado tla pagina*/
+
+/*Encuentra tu servicio*/
+
+.widthcard{
+    width: 18rem;
+    background-color: whitesmoke;
+
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0,5s ease-in-out;
+    object-fit: cover;
+    overflow: none;
+}
+.img:hover{
+    transform: scale(1.2);
+}
+
+.card{
+    border-color: whitesmoke;
+}
+.card-body{
+    background-color: whitesmoke;
+}
+
+.list-group-item{
+    background-color: whitesmoke;
+}
+.list-group-item:hover{
+    background-color: #3e834b
+}
+
+.fontservice{
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+}
+/*Fin Encuentra tu servicio*/
+
+
+
+/*fin de formato total y del index*/
+
+/*comienzo portal de ayuda*/
+
+.Menu_ayuda{
+    border: 2px solid #3e834b;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.linkayuda:hover{
+    background-color: #3e834b;
+    color: #ebebeb;
+    
+}
+
+/*fin portal de ayuda */
+/*comienzo sobre nosotros */
+.imagenajustada{
+    width: 275px;
+    height: 183px;
+}
+.centradoaboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilostaff{
+    border-top: solid 2px;
+    border-color: #3e834b;
+    border-radius: 20px;
+    border-bottom: solid 2px;
+    border-color: #3e834b;
+    border-radius: 20px;
+}
+
+/*fin sobre nosotros */
+
+.fuente{
+    font-style: italic;
+    text-decoration: none;
+    
+
+}
+.fuente:hover{
+    color: #3e834b;
+}
+
+.centrarnovedades{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/*comienzo de footer*/
+footer  {
+    border-top: 5px solid #3e834b;
+    
+}
+.footercolor{
+    background-color: #3e834b;
+}
+
+/*fin de footer*/
+
+

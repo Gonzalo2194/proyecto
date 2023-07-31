@@ -1,0 +1,15 @@
+{
+  "name": "gossip",
+  "version": "1.0.0",
+  "description": "proyecto coder house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:/Users/Yanira/Desktop/Gonza/Coder_house_proyecto/proyecto/.git/"
+  },
+  "author": "Gonzalo",
+  "license": "ISC"
+}
