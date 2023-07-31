@@ -1,0 +1,36 @@
+/*Encuentra tu servicio*/
+
+.widthcard{
+    width: 18rem;
+    background-color: $body-color;
+    .img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        transition: transform 0,5s ease-in-out;
+        object-fit: cover;
+        overflow: none;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+.card{
+    border-color: $body-color;
+    .card-body{
+        background-color: $body-color;
+    }
+}
+
+.list-group-item{
+    background-color:  $body-color;
+    &:hover{
+        background-color: $color-primariogossip
+    }
+}
+
+.fontservice{
+    font-style: italic;
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,11 @@
+main{
+    background-color: $body-color;
+        &button:hover{
+        color: #fff;
+        background-color: $color-primariogossip;
+        border-color: $color-primariogossip;
+        }
+    
+    }
+    
+    

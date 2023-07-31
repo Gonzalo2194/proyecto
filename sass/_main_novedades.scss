@@ -1,0 +1,12 @@
+.fuente{
+    font-style: italic;
+    text-decoration: none;
+    &:hover{
+    color: $color-primariogossip
+}
+}
+
+.centrarnovedades{
+    margin-left: 10px;
+    margin-top: 5px;
+}

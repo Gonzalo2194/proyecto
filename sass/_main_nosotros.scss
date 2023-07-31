@@ -1,0 +1,21 @@
+/*comienzo sobre nosotros */
+.imagenajustada{
+    width: 275px;
+    height: 183px;
+}
+.centradoaboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilostaff{
+    border-top: solid 2px;
+    border-color: $color-primariogossip;
+    border-radius: 20px;
+    border-bottom: solid 2px;
+    border-color: $color-primariogossip;
+    border-radius: 20px;
+}
+
+/*fin sobre nosotros */

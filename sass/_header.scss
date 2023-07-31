@@ -1,0 +1,31 @@
+.header{
+    top: 0%;
+    z-index: 10;
+    position: sticky;
+    background-color: $color-primariogossip;
+    .ul{
+        text-align: center;
+        position: absolute;
+        text-decoration: none;
+        .li{
+            justify-content: space-between;
+            display: inline-block;
+            margin-top: 5px;
+        }
+    }
+}
+.nav-item {
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: small;
+    right: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: $body-color;
+
+}
+
+.navcolor{
+    background-color: $color-primariogossip
+}
