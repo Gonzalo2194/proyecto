@@ -2,14 +2,11 @@
 
 
 .linkayuda:hover{
-    background-color: $color-primariogossip;
+    background-color: map-get($color , verde-gossip);
     color: #ebebeb;
-    
 }
 
 .formatolista{
     list-style: none;
-
-
 }
 /*fin portal de ayuda */

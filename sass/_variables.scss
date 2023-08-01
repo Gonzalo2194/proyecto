@@ -1,9 +1,24 @@
 /*Variables*/
-
 $fuente-general:'Signika Negative', sans-serif;
 $body-color:whitesmoke;
 $color-primariogossip:#3e834b;
 $color-star:rgba(231, 231, 10, 0.918);
+
+
+/*maps*/
+
+$carousel:(
+    ancho-imagen-carousel: width 100%,
+    ajuste-carousel: object-fit cover,
+    );
+
+$color:(
+    star-color:rgba(231, 231, 10, 0.918),
+    background-color:whitesmoke,
+    verde-gossip:#3e834b,
+);
+
+
 
 
 

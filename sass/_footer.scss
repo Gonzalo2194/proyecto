@@ -1,9 +1,9 @@
 /*comienzo de footer*/
 footer  {
-    border-top: 5px solid $color-primariogossip;
+    border-top: 5px solid map-get($color,verde-gossip);
     
 }
 .footercolor{
-    background-color: $color-primariogossip;
+    background-color: map-get($color,verde-gossip);
 }
 /*fin de footer*/

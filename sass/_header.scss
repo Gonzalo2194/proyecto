@@ -2,7 +2,7 @@
     top: 0%;
     z-index: 10;
     position: sticky;
-    background-color: $color-primariogossip;
+    background-color: map-get($color , verde-gossip);
     .ul{
         text-align: center;
         position: absolute;
@@ -27,5 +27,5 @@
 }
 
 .navcolor{
-    background-color: $color-primariogossip
-}
+    background-color: map-get($color , verde-gossip);
+    }

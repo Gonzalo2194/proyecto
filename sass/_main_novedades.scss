@@ -1,8 +1,8 @@
 .fuente{
-    font-style: italic;
+    font-style:italic;
     text-decoration: none;
     &:hover{
-    color: $color-primariogossip
+    color: map-get($color , verde-gossip)
 }
 }
 

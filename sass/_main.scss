@@ -1,9 +1,9 @@
 main{
-    background-color: $body-color;
+    background-color: map-get($color , background-color );
         &button:hover{
         color: #fff;
-        background-color: $color-primariogossip;
-        border-color: $color-primariogossip;
+        background-color: map-get($color , verde-gossip);
+        border-color: map-get($color,verde-gossip);
         }
     
     }

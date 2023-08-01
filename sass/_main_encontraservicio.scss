@@ -2,7 +2,7 @@
 
 .widthcard{
     width: 18rem;
-    background-color: $body-color;
+    background-color: map-get($color , background-color );
     .img{
         height: 100%;
         width: 100%;
@@ -16,21 +16,21 @@
     }
 }
 .card{
-    border-color: $body-color;
+    border-color: map-get($color , background-color );
     .card-body{
-        background-color: $body-color;
+        background-color: map-get($color , background-color );
     }
 }
 
 .list-group-item{
-    background-color:  $body-color;
+    background-color:  map-get($color , background-color );
     &:hover{
-        background-color: $color-primariogossip
+        background-color: map-get($color , verde-gossip);
     }
 }
 
 .fontservice{
-    font-style: italic;
+    font-style:italic;
     text-decoration: none;
     color: #000000;
 }

@@ -11,10 +11,10 @@
 
 .estilostaff{
     border-top: solid 2px;
-    border-color: $color-primariogossip;
+    border-color: map-get($color , verde-gossip);
     border-radius: 20px;
     border-bottom: solid 2px;
-    border-color: $color-primariogossip;
+    border-color: map-get($color , verde-gossip);
     border-radius: 20px;
 }
 
