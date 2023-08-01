@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gossip | Ayuda</title>
+    <meta name="description" content="Contáctanos para recibir ayuda y soporte. Nuestro equipo de expertos está listo para responder a tus preguntas y brindarte la asistencia.">
+    <meta name="keywords" content="contacto, ayuda, soporte, preguntas, información de contacto, asistencia">
+    <title>Gossip | Contactános</title>
     <link rel="shortcut icon" href="../assets/Images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
@@ -58,19 +60,22 @@
                     <!--formulario de contacto -->
                 <div class="col-md-6">
                     <h3>Contacto</h3>
-                    <form> 
+                    <form action="./404.html" method="get"> 
                         <div>
-                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                        <label for="nombre" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
                         </div>
                         <div>
-                        <input type="email" class="form-control mt-2" id="email" placeholder="Ingrese su email" required>
+                        <label for="email" class="form-label mt-2">E-mail</label>
+                        <input type="email" class="form-control mt-2" id="email" placeholder="ejemplo@gmail.com" required>
                         </div>
-                        <div class=" mt-4">
-                        <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" required></textarea>
+                        <div class=" mt-2">
+                        <label for="mensaje" class="form-label">Comentario</label>
+                        <textarea class="form-control" id="mensaje" rows="5" placeholder="Ingrese su mensaje" ></textarea>
                         </div>
-                        <div class="col">
-                        <button type="submit" class="btn btn-success mt-2 ">Enviar consulta</button>
-                        <button type="reset" class="btn btn-danger mt-2 ">Borrar datos</button>
+                        <div class="col mb-4">
+                        <input type="submit" value="Enviar consulta" class="btn btn-success mt-2 "></input>
+                        <input type="reset" value="Borrar datos" class="btn btn-danger mt-2 "></input>
                         </div>
                     </form>
                 </div>

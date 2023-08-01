@@ -168,9 +168,7 @@ mainbutton:hover {
   border-top: solid 2px;
   border-color: #3e834b;
   border-radius: 20px;
-  border-bottom: solid 2px;
-  border-color: #3e834b;
-  border-radius: 20px;
+  border-bottom: solid 2px #3e834b;
 }
 
 /*fin sobre nosotros */

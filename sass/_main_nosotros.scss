@@ -5,17 +5,18 @@
 }
 .centradoaboutus{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
+
 }
 
 .estilostaff{
     border-top: solid 2px;
     border-color: map-get($color , verde-gossip);
     border-radius: 20px;
-    border-bottom: solid 2px;
-    border-color: map-get($color , verde-gossip);
-    border-radius: 20px;
+    border-bottom: solid 2px map-get($color , verde-gossip);
+    
+    
 }
 
 /*fin sobre nosotros */
