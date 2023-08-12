@@ -11,5 +11,8 @@
     "url": "C:/Users/Yanira/Desktop/Gonza/Coder_house_proyecto/proyecto/.git/"
   },
   "author": "Gonzalo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
 }
