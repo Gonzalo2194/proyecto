@@ -2,7 +2,7 @@
 
 .widthcard{
     width: 18rem;
-    background-color: map-get($color , background-color );
+    background-color: map-get($color , background-color );}
     .img{
         height: 100%;
         width: 100%;
@@ -14,7 +14,7 @@
             transform: scale(1.2);
         }
     }
-}
+
 .card{
     border-color: map-get($color , background-color );
     .card-body{

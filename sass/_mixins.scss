@@ -1,0 +1,18 @@
+@mixin color-fuente($color,$estilodefuente){
+    background-color:whitesmoke;
+    color:$color;
+    font-style: $estilodefuente;
+    text-decoration: underline;
+}
+
+@mixin transition-transform($transform,$scale){
+    width: 100%;
+    transition: $transform; 
+    object-fit: cover;
+    overflow: none;
+    
+    &:hover{
+        transform:$scale 
+}
+}
+

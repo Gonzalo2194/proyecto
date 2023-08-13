@@ -26,21 +26,18 @@
     font-style: oblique;
 }
 .fuentegossiper{
-    color: map-get($color , verde-gossip);
-    font-style: bold;
-    text-decoration: underline;
+    @include color-fuente(#3e834b,bold);
 }
 /* fin fuente index*/
 /*formato imagenes index*/
 
 .imagencentrada{
-    width: 100%;
+    @include transition-transform(transform 1s,scale(1.1));
     height: 250px;
-    object-fit: cover;
-    transition: transform 1s;
     }
 
     .imagencentrada:hover{
-        transform: scale(1.1) translateY(2%);
+        translate: y(2%);
         
     }
+

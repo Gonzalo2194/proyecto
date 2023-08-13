@@ -104,6 +104,7 @@ mainbutton:hover {
 }
 
 .fuentegossiper {
+  background-color: whitesmoke;
   color: #3e834b;
   font-style: bold;
   text-decoration: underline;
@@ -113,13 +114,17 @@ mainbutton:hover {
 /*formato imagenes index*/
 .imagencentrada {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
   transition: transform 1s;
+  object-fit: cover;
+  overflow: none;
+  height: 250px;
+}
+.imagencentrada:hover {
+  transform: scale(1.1);
 }
 
 .imagencentrada:hover {
-  transform: scale(1.1) translateY(2%);
+  translate: y(2%);
 }
 
 /*Encuentra tu servicio*/
@@ -127,7 +132,8 @@ mainbutton:hover {
   width: 18rem;
   background-color: whitesmoke;
 }
-.widthcard .img {
+
+.img {
   height: 100%;
   width: 100%;
   border-radius: 10px;
@@ -135,7 +141,7 @@ mainbutton:hover {
   object-fit: cover;
   overflow: none;
 }
-.widthcard .img:hover {
+.img:hover {
   transform: scale(1.2);
 }
 
